@@ -1,0 +1,33 @@
+pragma solidity ^0.4.17 <0.6.12;
+
+
+contract  studentsreport {
+    
+   string public studentname ;
+   uint public rollno;
+   string public batch;
+   uint public marks;
+   string public status;
+
+
+function studentsreport(string newstudentname, uint newrollno,string newbatch,uint newmarks,string newstatus)public{
+    studentname= newstudentname;
+    rollno= newrollno;
+    batch= newbatch;
+    marks= newmarks;
+    status= newstatus;
+    
+    
+    
+}
+   function setstudentsreport(string newstudentname, uint newrollno, string newbatch,uint newmarks,string newstatus)public{
+   studentname= newstudentname;
+    rollno= newrollno;
+    batch= newbatch;
+    marks= newmarks;
+    status= newstatus;
+    
+}
+function getstudentcurrrentdetails() public view returns(string,uint,string ,uint,string){
+return(studentname,rollno,batch,marks,status);
+}
