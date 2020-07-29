@@ -1,0 +1,28 @@
+pragma solidity ^0.4.21; 
+
+// DAY-3 Assignment 
+
+contract Value {
+    uint valueOne;
+    uint valueTwo;
+
+    function setValue(uint x, uint y) public {
+        valueOne = x;
+        valueTwo = y;
+    }
+    
+    function incrementValueOne (uint n) public {
+        valueOne = valueOne + n;
+        return;
+    }
+    
+    function decrementValueTwo (uint n) public {
+        valueTwo = valueTwo - n;
+        return;
+    }
+    
+    function get() public view returns (uint, uint)  {
+        return(valueOne,valueTwo);
+    }
+    
+}
