@@ -1,0 +1,28 @@
+DAY-1 Assignment
+
+Question 1:
+What is your understanding of Blockchain?
+Answer: As the name suggests,a blockchain is a chain of blocks and each block contains some information or transactions and are linked to each other using a unique key,or in a more broad term,cryptographic hash.
+
+Question 2:
+What is the core problem Blockchain trying to solve?
+Answer: Suppose my sister needs money today and I want to transfer money from India to my sister in New York.Now I'll ask my bank to do it for me and it takes about 10 days(maybe more) for all this process to happen and my sister will get money after 10 days.She has to wait for 10 days and we have to trust our bank or what we call "A middleman" between us to make this transfer of money complete.So the core problem
+Blockchain is trying to solve is "Eliminating Middlemen or Third-Parties" and making the process more simple and now we can trust each other and we don't have to depend on banks.This also saves our time.
+
+Question 3:
+What are the few features which Blockchain will give you?
+Answer:1)Security
+2)Immutability
+3)Tamper-proof
+4)Verifiability
+
+Question 4:
+What all things does a Block contain?
+Answer:1)Block Number
+2)Data
+3)Previous Block Signature
+4)Mining Key
+
+Question 5:
+How is the verifiability of Blockchain has been attained?
+Answer: A new block always contains hash key of previous block.Now if we try to tamper any of the block's data then the data of each linked block will be changed because they all have their unique key value which is stored in the next block so it will be very difficult for anyone to change or update the data because the other blocks won't allow it.Also the blockchain database is distributed over every computer using that database so without the consent of all of the computers,no change can take place in that database.
